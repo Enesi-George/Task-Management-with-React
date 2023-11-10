@@ -43,6 +43,19 @@ li:active{
   background-color: rgb(4, 196, 106);
 }
 
+.table{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table tr,td{
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+.table td input[type="number"]{
+  -moz-appearance: textfield;
+
+}
 
 /* h1{
   text-align: center;
